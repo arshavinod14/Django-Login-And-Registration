@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}
+Add User
+{% endblock %}
+{% block content %}
+
+    <div class="login">
+        <h5 class="text-center">Add New User</h5>
+        <form class="needs-validation" method="post">  
+            {% csrf_token %}
+            <div class="form-group"> 
+    
+                <label class="form-label">Username</label>
+                <input class="form-control" type="text" id="username" name="username" required>
+        
+                <label class="form-label" for="email">Email</label>
+                <input class="form-control" type="email" id="email" name = "email" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-control" type="password" id="pass1" name="pass1" required>
+            
+                <label class="form-label" for="password">Confirm Password</label>
+                <input class="form-control" type="password" id="pass2" name="pass2" required>
+            </div>
+            <input class="btn btn-secondary" type="submit" value="Add"><br><br>
+        </form>
+    </div>
+{% endblock %}

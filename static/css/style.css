@@ -1,0 +1,37 @@
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #506193;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.login h5 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.btn{
+    margin-left: 120px;
+}
+
+
+.atag{
+    margin-left: 250px;
+}
